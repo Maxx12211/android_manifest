@@ -29,6 +29,10 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
+   <!-- Github -->
+  <remote  name="Maxx12211" 
+  	   fetch="https://github.com/Maxx12211"
+           revision="tiramisu" />
 
   <!-- Rootdir -->
   <project path="art" name="android_art" remote="cherish" />
@@ -54,7 +58,7 @@
   </project>
 
   <!-- Device -->
-  <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="cherish" />
+  <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="Maxx12211" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cherish" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cherish" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="old" />
