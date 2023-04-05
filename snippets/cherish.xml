@@ -117,7 +117,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cherish" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="cherish" />
+  <project path="system/core" name="android_system_core" remote="Maxx12211" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="cherish" />
   <project path="system/libhidl" name="android_system_libhidl" remote="cherish" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="cherish" />
@@ -130,7 +130,7 @@
   <project path="system/vold" name="android_system_vold" remote="cherish" />
 
   <!-- Vendor -->
-  <project path="vendor/cherish" name="android_vendor_cherish" remote="cherish" />
+  <project path="vendor/cherish" name="android_vendor_cherish" remote="Maxx12211" />
   <project path="vendor/themes" name="android_vendor_themes" remote="cherish" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="cherish" />
   <project path="vendor/gms" name="vendor_gms" remote="cherish-gitlab" clone-depth="1" />
