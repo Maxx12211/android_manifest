@@ -135,7 +135,7 @@
   <project path="system/vold" name="android_system_vold" remote="cherish" />
 
   <!-- Vendor -->
-  <project path="vendor/cherish" name="android_vendor_cherish" remote="Maxx12211" />
+  <project path="vendor/cherish" name="android_vendor_cherish" remote="Maxx12211" revision="tiramisu2" />
   <project path="vendor/themes" name="android_vendor_themes" remote="cherish" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="cherish" />
   <project path="vendor/gms" name="android_vendor_gms" remote="cherish-gitlab" clone-depth="1" />
